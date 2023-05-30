@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'quete';
+
+  isAdmin: boolean = true;
+
+  isButtonAppear: boolean = false;
 }
